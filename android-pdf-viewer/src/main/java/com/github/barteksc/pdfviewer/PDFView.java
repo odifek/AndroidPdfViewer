@@ -233,7 +233,7 @@ public class PDFView extends RelativeLayout {
      * If true,the PdfView would release automatically when it is detached from window,
      * otherwise false
      */
-    private boolean autoReleasingWhenDetachedFromWindow = true;
+    private boolean autoReleasingWhenDetachedFromWindow = false;
 
     /** Fling a single page at a time */
     private boolean pageFling = true;
